@@ -7,7 +7,7 @@ const nunito = Nunito({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Flixify',
-  description: 'Created with Next.js',
+  description: 'Created by app-verse',
   icons: {
     icon: ['/favicon.ico?v=4'],
     apple: ['/apple-touch-icon.png?v=4'],
