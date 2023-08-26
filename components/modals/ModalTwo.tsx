@@ -45,7 +45,7 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         <div className='details-two'>
                             <div className='movie-description text-left'>
                                 <h1 className='text-red-400 font-bold'>I am Geyi,</h1>
-                                <p>a culinary historian, fashionista, cinephile, and traveler.
+                                <p>a culinary historian, fashion enthusiast, cinephile, and avid traveler.
                                     <span>
                                         <BiMoviePlay className='inline text-red-400 text-lg ml-1 mr-1' />
                                         <FaBowlFood className='inline text-slate-400 text-md mr-1' />
@@ -71,11 +71,13 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         </div>
                         <div className='bottom-part text-left mb-0 mt-1'>
                             <p>
-                                <span className='font-bold text-green-400'>This web app </span>
-                                provides users with information and trailer videos about
-                                Movies, Anime, and TV series. This web app is a thoughtful gift from my good friend,
-                                who is a software developer. The app is built using Next.js, TypeScript, and
-                                Tailwind CSS, leveraging the TMDB API and Jikan REST API.
+                                <span className='font-bold text-green-400'>I love to explore </span>
+                                new cultures and cuisines, and I am always looking for new experiences.
+                                I am also a bit of a fashionista, and I enjoy dressing up and looking my best.
+                                I am always up for a new adventure, and I love to travel the world.
+                                My good friend, who is a software developer, thoughtfully gifted me this web app that 
+                                provides users with information and trailer videos about movies, anime, and TV series. 
+                                The app is built using Next.js, TypeScript, and Tailwind CSS, and it leverages the TMDB API and Jikan REST API
                             </p>
                             <div className='mb-0 mt-3'>
                                 <img
