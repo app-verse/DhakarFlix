@@ -11,11 +11,7 @@ export default function Footer() {
     return (
         <div className='footer border-slate-500 text-center mt-20'>
             <p className='mb-2'>
-                Under <Link 
-                className='underline'
-                href='https://github.com/TokomNyori/Nextify/blob/main/LICENSE' target='_blank'>
-                    MIT Licence
-                </Link>
+                Copyright (c) 2023 Under MIT Licence
             </p>
             <div className='flex justify-center items-center gap-2'>
                 <FaReact className='text-xl text-blue-400' />
