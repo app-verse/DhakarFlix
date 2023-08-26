@@ -248,7 +248,7 @@ a {
 .insta-link {
   position: absolute;
   bottom: 4%;
-  left: 37%;
+  left: 44%;
 }
 
 .person-movie-images-container {
@@ -356,7 +356,7 @@ a {
   .insta-link {
     position: absolute;
     bottom: 6%;
-    left: 37%;
+    left: 45%;
   }
 }
 
@@ -370,7 +370,7 @@ a {
   .insta-link {
     position: absolute;
     bottom: 8%;
-    left: 22%;
+    left: 34%;
   }
 }
 
@@ -403,7 +403,7 @@ a {
   .insta-link {
     position: absolute;
     bottom: 4%;
-    left: 43%;
+    left: 50.5%;
   }
 
   .greet {
@@ -445,7 +445,7 @@ a {
   .insta-link {
     position: absolute;
     bottom: 4%;
-    left: 38%;
+    left: 46%;
   }
 
   .card-skeleton {
@@ -456,6 +456,12 @@ a {
 }
 
 @media (max-width: 362px) {
+  .insta-link {
+    position: absolute;
+    bottom: 4%;
+    left: 42%;
+  }
+
   .card-skeleton {
     min-height: 16rem;
     max-height: 18rem;
