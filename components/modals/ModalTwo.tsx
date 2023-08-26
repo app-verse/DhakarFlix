@@ -51,7 +51,7 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                                         <FaBowlFood className='inline text-slate-400 text-md mr-1' />
                                         <MdTravelExplore className='inline text-blue-400 text-xl mr-1' />
                                         <VscHistory className='inline text-green-400' />
-                                        <GiAmpleDress className='inline text-pink-400 text-lg mr-1' />
+                                        <GiAmpleDress className='inline text-white text-lg mr-1' />
                                     </span>
                                 </p>
                             </div>
