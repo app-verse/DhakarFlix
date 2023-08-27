@@ -439,6 +439,15 @@ a {
   .fixed-nav {
     padding: 0.5rem 1rem;
   }
+
+  .logo-main {
+    font-size: 1.8rem;
+  }
+
+  .greet {
+    font-size: 1rem;
+    padding: 0.1rem 0.3rem;
+  }
 }
 
 @media (max-width: 396px) {

@@ -1,9 +1,6 @@
 import { FaInstagram } from 'react-icons/fa'
-import { BiMoviePlay } from 'react-icons/bi'
-import { VscHistory } from 'react-icons/vsc'
-import { MdTravelExplore } from 'react-icons/md'
-import { GiAmpleDress } from 'react-icons/gi'
-import { FaBowlFood } from 'react-icons/fa6'
+import { GiQueenCrown } from 'react-icons/gi'
+import { GiIsland } from 'react-icons/gi'
 import { useRef, useEffect } from 'react'
 
 interface ModalTwoProps {
@@ -44,14 +41,11 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                     <div className='modal-body'>
                         <div className='details-two'>
                             <div className='movie-description text-left'>
-                                <h1 className='text-red-400 font-bold'>I am Geyi,</h1>
-                                <p>a culinary historian, fashion enthusiast, cinephile, and avid traveler.
+                                <h1 className='text-red-400 font-bold'>I am Dhakarsum,</h1>
+                                <p>affectionately known as Moi Sum, and I hold the esteemed title of the queen of Motunui.
                                     <span>
-                                        <BiMoviePlay className='inline text-red-400 text-lg ml-1 mr-1' />
-                                        <FaBowlFood className='inline text-slate-400 text-md mr-1' />
-                                        <MdTravelExplore className='inline text-blue-400 text-xl mr-1' />
-                                        <VscHistory className='inline text-green-400' />
-                                        <GiAmpleDress className='inline text-white text-lg mr-1' />
+                                        <GiQueenCrown className='inline text-yellow-500 text-lg ml-1 mr-1' />
+                                        <GiIsland className='inline text-white text-lg ml-1 mr-1' />
                                     </span>
                                 </p>
                             </div>
@@ -71,25 +65,24 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         </div>
                         <div className='bottom-part text-left mb-0 mt-1'>
                             <p>
-                                <span className='font-bold text-green-400'>I love to explore </span>
-                                new cultures and cuisines, and I am always looking for new experiences.
-                                I am also a bit of a fashionista, and I enjoy dressing up and looking my best.
-                                I am always up for a new adventure, and I love to travel the world.
-                                My good friend, who is a software developer, thoughtfully gifted me this web app that 
-                                provides users with information and trailer videos about movies, anime, and TV series. 
-                                The app is built using Next.js, TypeScript, and Tailwind CSS, and it leverages the TMDB API and Jikan REST API
+                                <span className='font-bold text-green-400'>Within this enchanting </span>
+                                realm of Motunui, exists an extraordinary platform that caters to your cinematic cravings.
+                                <span className='font-bold text-red-400'> Behold DhakarFlix, </span>
+                                a haven of cinematic wonders nestled within the embrace of Motunui. Here, the enchantment
+                                of Movies, the allure of Anime, and the captivating tales of TV series converge to form a tapestry of
+                                entertainment that transcends the ordinary. DhakarFlix offers a treasure trove of knowledge,
+                                presenting you with meticulously curated information and immersive trailer videos.
+                                DhakarFlix promises to be your ultimate companion, guiding you through the realm of Movies, Anime,
+                                and TV series with the utmost grace and style. 
+                                {/* So, my dear friends, join me as we traverse the
+                                captivating landscapes of DhakarFlix, where each click leads you deeper into the magic of on-screen marvels. */}
                             </p>
-                            <div className='mb-0 mt-3'>
+                            <div className='mb-0 mt-3 flex justify-center'>
                                 <img
-                                    src="/images/Nextjs-logo.png" alt=""
+                                    src="/images/purple-circle.png" alt=""
                                 />
                             </div>
-                            <div className='mt-4 mb-0'>
-                                <img
-                                    src="/images/Tailwind-logo.png" alt=""
-                                />
-                            </div>
-                            <div className='mt-4 mb-0 flex justify-between gap-4'>
+                            {/* <div className='mt-4 mb-0 flex justify-between gap-4'>
                                 <div className=''>
                                     <img
                                         src="/images/Typescript.png" alt=""
@@ -102,7 +95,7 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                                         height={100} width={200}
                                     />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
