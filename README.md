@@ -1,6 +1,6 @@
-# Flixify - Movies, Anime and TV Series Information Web App
+# DhakarFlix - Movies, Anime and TV Series Information Web App
 
-Flixify is a web app that provides users with detailed information and trailer videos about Movies, Anime, and TV series. The app is built using Next.js, TypeScript, and Tailwind CSS, leveraging the TMDB API and Jikan REST API. The app is updated regularly.
+DhakarFlix is a web app that provides users with detailed information and trailer videos about Movies, Anime, and TV series. The app is built using Next.js, TypeScript, and Tailwind CSS, leveraging the TMDB API and Jikan REST API. The app is updated regularly.
 
 ## Features
 
@@ -8,14 +8,17 @@ Flixify is a web app that provides users with detailed information and trailer v
 - Get in-depth information about anime from different seasons and beyond.
 - User-friendly interface and responsive design for various devices.
 
+## Demo Link:
+DhakarFlix demo link [project website](https://dhakarflix.vercel.app/)
+
 ## How to Use
 
-To clone and run Flixify on your local machine, follow these steps:
+To clone and run DhakarFlix on your local machine, follow these steps:
 
 1. Open your preferred IDE's terminal.
 2. Run the following command to clone the repository:
    ```bash
-   git clone https://github.com/app-verse/Flixify.git
+   git clone https://github.com/app-verse/DhakarFlix.git
    npm install
    npm run dev
    ```

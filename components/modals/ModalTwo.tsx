@@ -68,34 +68,16 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                                 <span className='font-bold text-green-400'>Within this enchanting </span>
                                 realm of Motunui, exists an extraordinary platform that caters to your cinematic cravings.
                                 <span className='font-bold text-red-400'> Behold DhakarFlix, </span>
-                                a haven of cinematic wonders nestled within the embrace of Motunui. Here, the enchantment
-                                of Movies, the allure of Anime, and the captivating tales of TV series converge to form a tapestry of
-                                entertainment that transcends the ordinary. DhakarFlix offers a treasure trove of knowledge,
-                                presenting you with meticulously curated information and immersive trailer videos.
-                                DhakarFlix promises to be your ultimate companion, guiding you through the realm of Movies, Anime,
-                                and TV series with the utmost grace and style. 
-                                {/* So, my dear friends, join me as we traverse the
-                                captivating landscapes of DhakarFlix, where each click leads you deeper into the magic of on-screen marvels. */}
+                                a haven of cinematic wonders nestled within the embrace of Motunui. DhakarFlix offers a
+                                treasure trove of knowledge, resenting you with meticulously curated information and immersive
+                                trailer videos. DhakarFlix promises to be your ultimate companion, guiding you through the realm
+                                of Movies, Anime, and TV series with the utmost grace and style.
                             </p>
                             <div className='mb-0 mt-3 flex justify-center'>
                                 <img
                                     src="/images/purple-circle.png" alt=""
                                 />
                             </div>
-                            {/* <div className='mt-4 mb-0 flex justify-between gap-4'>
-                                <div className=''>
-                                    <img
-                                        src="/images/Typescript.png" alt=""
-                                        height={100} width={200}
-                                    />
-                                </div>
-                                <div className=''>
-                                    <img
-                                        src="/images/Tmdb.png" alt=""
-                                        height={100} width={200}
-                                    />
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </div>
