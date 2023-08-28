@@ -42,7 +42,7 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         <div className='details-two'>
                             <div className='movie-description text-left'>
                                 <h1 className='text-red-400 font-bold'>I am Dhakarsum,</h1>
-                                <p>affectionately known as Moi Sum, and I hold the esteemed title of the queen of Dhakarland.
+                                <p>also known as Moi Sum. I hold the esteemed title of Queen of Dhakarland.
                                     <span>
                                         <GiQueenCrown className='inline text-yellow-500 text-lg ml-1 mr-1' />
                                         <GiIsland className='inline text-white text-lg ml-1 mr-1' />
