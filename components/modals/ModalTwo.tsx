@@ -42,7 +42,7 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         <div className='details-two'>
                             <div className='movie-description text-left'>
                                 <h1 className='text-red-400 font-bold'>I am Dhakarsum,</h1>
-                                <p>affectionately known as Moi Sum, and I hold the esteemed title of the queen of Motunui.
+                                <p>affectionately known as Moi Sum, and I hold the esteemed title of the queen of Dhakarland.
                                     <span>
                                         <GiQueenCrown className='inline text-yellow-500 text-lg ml-1 mr-1' />
                                         <GiIsland className='inline text-white text-lg ml-1 mr-1' />
@@ -66,9 +66,9 @@ const ModalTwo: React.FC<ModalTwoProps> = ({ greet, greetings }) => {
                         <div className='bottom-part text-left mb-0 mt-1'>
                             <p>
                                 <span className='font-bold text-green-400'>Within this enchanting </span>
-                                realm of Motunui, exists an extraordinary platform that caters to your cinematic cravings.
+                                realm of Dhakarland, exists an extraordinary platform that caters to your cinematic cravings.
                                 <span className='font-bold text-red-400'> Behold DhakarFlix, </span>
-                                a haven of cinematic wonders nestled within the embrace of Motunui. DhakarFlix offers a
+                                a haven of cinematic wonders nestled within the embrace of Dhakarland. DhakarFlix offers a
                                 treasure trove of knowledge, resenting you with meticulously curated information and immersive
                                 trailer videos. DhakarFlix promises to be your ultimate companion, guiding you through the realm
                                 of Movies, Anime, and TV series with the utmost grace and style.
